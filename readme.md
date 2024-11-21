@@ -29,17 +29,17 @@ Before you begin, ensure you have the following installed:
 * Clone the repository:
 * 
 Open a terminal (or command prompt) and run the following command to clone this repository:
-**git clone https://github.com/yourusername/LMS.git**
+```git clone https://github.com/yourusername/LMS.git```
 
 * Navigate to the project directory:
 
 After cloning the repository, go into the project folder:
-**cd LMS**
+```cd LMS```
 
 ### Install dependencies:
 
 The next step is to install the required dependencies for the project. Run the following command in the terminal:
-**npm install**
+```npm install```
 
 This will install all the necessary packages listed in package.json.
 ---
@@ -50,14 +50,14 @@ Once all dependencies are installed, you can start the server locally.
 * Start the server:
 
 Run the following command to start the application:
-**npm run dev**
+```npm run dev```
 
 Alternatively, if you are using the standard Node.js command (without nodemon), run:
-**node server.js**
+```node server.js```
 
-*Access the application:
+* Access the application:
 
-Open a browser and go to http://localhost:3000. You should be able to see the login or signup page.
+Open a browser and go to ```http://localhost:3000```. You should be able to see the login or signup page.
 
 ---
 

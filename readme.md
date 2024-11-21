@@ -97,7 +97,7 @@ LMS/
 └── README.md                  # This file ```
 ---
 
-LMS/ │ ├── public/ # Static files (CSS, JS) │ ├── css/ # Stylesheets │ └── js/ # JavaScript files │ ├── views/ # EJS templates for rendering HTML │ ├── admin.ejs # Admin dashboard page │ ├── members.ejs # Member dashboard page │ └── index.html # Login/Signup page │ ├── server.js # Main server file (Node.js) ├── package.json # Project dependencies and scripts └── README.md # This file
+``` LMS/ │ ├── public/ # Static files (CSS, JS) │ ├── css/ # Stylesheets │ └── js/ # JavaScript files │ ├── views/ # EJS templates for rendering HTML │ ├── admin.ejs # Admin dashboard page │ ├── members.ejs # Member dashboard page │ └── index.html # Login/Signup page │ ├── server.js # Main server file (Node.js) ├── package.json # Project dependencies and scripts └── README.md # This file
 
 ## License
 

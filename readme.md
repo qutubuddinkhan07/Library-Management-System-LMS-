@@ -1,4 +1,4 @@
-**Library Management System (LMS)**
+#Library Management System (LMS)
 This is a simple Library Management System (LMS) built using Node.js, Express, and EJS for the front-end. The system supports user authentication, book management (add/remove), and a member dashboard for borrowing/returning books.
 
 **Features**

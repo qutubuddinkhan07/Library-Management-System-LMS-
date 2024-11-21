@@ -58,6 +58,7 @@ Alternatively, if you are using the standard Node.js command (without nodemon), 
 *Access the application:
 
 Open a browser and go to http://localhost:3000. You should be able to see the login or signup page.
+
 ---
 
 ### Usage

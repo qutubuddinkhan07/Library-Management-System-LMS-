@@ -94,7 +94,7 @@ LMS/
 │
 ├── server.js                  # Main server file (Node.js)
 ├── package.json               # Project dependencies and scripts
-└── README.md                  # This file
+└── README.md                  # This file ```
 ---
 
 ## License

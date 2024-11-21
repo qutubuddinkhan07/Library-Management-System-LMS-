@@ -60,7 +60,7 @@ Alternatively, if you are using the standard Node.js command (without nodemon), 
 Open a browser and go to http://localhost:3000. You should be able to see the login or signup page.
 ---
 
-# Usage
+### Usage
 1. Login & Signup
 * Login: Users can log in using their credentials (username and password).
 * Signup: New users can sign up with their name, contact, and password.
@@ -78,7 +78,7 @@ Open a browser and go to http://localhost:3000. You should be able to see the lo
 * Members can borrow books if available and return them once they are done.
 ---
 
-### Design
+## Design
 ![Logo](images/img1.png)
 
 ![Logo](images/img2.png)

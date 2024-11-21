@@ -7,6 +7,7 @@ This is a simple Library Management System (LMS) built using Node.js, Express, a
 * Member Panel: Borrow and return books, view borrowed book details.
 * Book Inventory: Add and remove books from the system (admin-only).
 * User Management: Admin can view user details and remove users (if they have not borrowed any books).
+
 ---
 
 ### Table of Contents
@@ -27,8 +28,7 @@ Before you begin, ensure you have the following installed:
 
 ### Installation
 * Clone the repository:
-* 
-Open a terminal (or command prompt) and run the following command to clone this repository:
+* Open a terminal (or command prompt) and run the following command to clone this repository:
 ```git clone https://github.com/yourusername/LMS.git```
 
 * Navigate to the project directory:

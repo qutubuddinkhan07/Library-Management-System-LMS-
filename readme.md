@@ -78,6 +78,16 @@ Open a browser and go to http://localhost:3000. You should be able to see the lo
 * Members can borrow books if available and return them once they are done.
 ---
 
+### Design
+![Logo](images/img1.png)
+![Logo](images/img2.png)
+![Logo](images/img3.png)
+![Logo](images/img4.png)
+![Logo](images/img5.png)
+![Logo](images/img6.png)
+
+---
+
 ### Folder Structure
 The repository has the following structure:
 

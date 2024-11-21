@@ -93,7 +93,8 @@ Open a browser and go to ```http://localhost:3000```. You should be able to see 
 ### Folder Structure
 The repository has the following structure:
 
-``` LMS/
+```
+LMS/
 │
 ├── public/                    # Static files (CSS, JS)
 │   ├── css/                   # Stylesheets

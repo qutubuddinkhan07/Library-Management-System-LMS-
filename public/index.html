@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Library Management System</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="form-container" id="form-container">
+      <!-- Login Form -->
+      <div class="form" id="login-form">
+        <h2>Login</h2>
+        <input type="text" id="login-username" placeholder="Name or Email" required />
+        <input type="password" id="login-password" placeholder="Password" required />
+        <button onclick="handleLogin()">Login</button>
+        <div class="toggle">
+          <button onclick="toggleForm('signup')">Don't have an account? Sign up</button>
+          <button onclick="handleAdminLogin()">Admin Login</button>
+        </div>
+      </div>
+
+      <!-- Signup Form -->
+      <div class="form" id="signup-form">
+        <h2>Sign Up</h2>
+        <input type="text" id="signup-name" placeholder="Full Name" required />
+        <input type="text" id="signup-contact" placeholder="Contact" required />
+        <input type="password" id="signup-password" placeholder="Password" required />
+        <button onclick="handleSignup()">Sign Up</button>
+        <div class="toggle">
+          <button onclick="toggleForm('login')">Already have an account? Login</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    width: 100%;
+    max-width: 400px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    position: relative;
+}
+
+.form-container {
+    display: flex;
+    width: 200%;
+    transition: transform 0.5s ease-in-out;
+}
+
+.form {
+    width: 50%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.form h2 {
+    margin-bottom: 20px;
+    color: #333;
+    font-size: 24px;
+}
+
+.form input {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 12px 15px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+
+.form button {
+    width: 100%;
+    padding: 12px 15px;
+    background: #5cb85c;
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.form button:hover {
+    background: #4cae4c;
+}
+
+.toggle {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.toggle button {
+    background: none;
+    border: none;
+    color: #007bff;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+/* Logout Button */
+.logout {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    text-decoration: none;
+    color: white;
+    background: #d9534f;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.logout:hover {
+    background: #c9302c;
+}
+
+/* Admin and Member Pages Styling */
+.page-container {
+    padding: 20px;
+}
+
+.page-container h1 {
+    margin-bottom: 20px;
+}
+
+.page-container h2 {
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.page-container table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.page-container table,
+th,
+td {
+    border: 1px solid #ccc;
+}
+
+.page-container th,
+td {
+    padding: 10px;
+    text-align: left;
+}
+
+.page-container form {
+    margin-bottom: 20px;
+}
+
+.page-container form input {
+    padding: 8px;
+    margin-right: 10px;
+}
+
+.page-container form button {
+    padding: 8px 12px;
+}
+
+/* Add this to your stylesheet (e.g., styles.css) for table the admin user borrow*/
+ul.borrowed-titles {
+    list-style-type: none; /* Remove default bullet points */
+    padding-left: 0; /* Remove left padding */
+    margin: 0; /* Remove any margin for the list */
+  }
+  
+  ul.borrowed-titles li {
+    margin: 5px 0; /* Optional: add some space between items */
+  }

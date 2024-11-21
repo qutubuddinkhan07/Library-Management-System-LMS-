@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Member Page</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <a href="/" class="logout">Logout</a>
+  <div class="page-container">
+    <h1>Member Dashboard</h1>
+
+    <!-- Available Books Section -->
+    <h2>Available Books</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Title</th>
+          <th>Author</th>
+          <th>Action</th>
+        </tr>
+      </thead>
+      <tbody>
+        <% books.forEach(book => { %>
+          <% if (book.available) { %>
+            <tr>
+              <td><%= book.id %></td>
+              <td><%= book.title %></td>
+              <td><%= book.author %></td>
+              <td>
+                <form action="/members/borrowBook" method="POST">
+                  <input type="hidden" name="userId" value="<%= userId %>" />
+                  <input type="hidden" name="bookId" value="<%= book.id %>" />
+                  <button type="submit">Borrow</button>
+                </form>
+              </td>
+            </tr>
+          <% } %>
+        <% }) %>
+      </tbody>
+    </table>
+
+    <!-- Borrowed Books Section -->
+    <h2>Your Borrowed Books</h2>
+    <% if (borrowedBooks.length > 0) { %>
+      <table>
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>Title</th>
+            <th>Author</th>
+            <th>Action</th>
+          </tr>
+        </thead>
+        <tbody>
+          <% borrowedBooks.forEach(book => { %>
+            <tr>
+              <td><%= book.id %></td>
+              <td><%= book.title %></td>
+              <td><%= book.author %></td>
+              <td>
+                <form action="/members/returnBook" method="POST">
+                  <input type="hidden" name="userId" value="<%= userId %>" />
+                  <input type="hidden" name="bookId" value="<%= book.id %>" />
+                  <button type="submit">Return</button>
+                </form>
+              </td>
+            </tr>
+          <% }) %>
+        </tbody>
+      </table>
+    <% } else { %>
+      <p>You have not borrowed any books.</p>
+    <% } %>
+  </div>
+</body>
+</html>
